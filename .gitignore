@@ -1,0 +1,36 @@
+# Global dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+
+# Uploads and large media folders
+myImg/
+**/myImg/
+uploads/
+**/uploads/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large files (Generic)
+*.zip
+*.tar.gz
+*.rar
+*.exe
+*.dll
+*.so
+*.dmg
+*.iso
+*.mp4
+*.mov
+*.avi
+*.pdf
